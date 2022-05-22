@@ -15,7 +15,7 @@ const DialogModal = ({
     handleSetTodoOnSubmit
 }) => {
     return (
-        <Dialog open={isOpen} onClose={handleOpenDialog}>            
+        <Dialog minRows={50} maxRows={50} open={isOpen} onClose={handleOpenDialog}>            
             <DialogTitle>{formData.isEdit ? "Изменение" : "Новая задача"}</DialogTitle>            
             <DialogContent>
                 <form onSubmit={handleSetTodoOnSubmit}>
