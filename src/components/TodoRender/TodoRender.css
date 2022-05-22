@@ -1,0 +1,28 @@
+.todos-renderer-wrapper {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 350px;
+}
+
+.todo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 48px;
+    border-bottom: 1px solid #8080802b; /*цвет линии между тудушками */
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+
+/*линия зачеркивания выполненных тудушек*/
+.todo-finished {
+    text-decoration: line-through;
+    color: #8080808f;
+}
