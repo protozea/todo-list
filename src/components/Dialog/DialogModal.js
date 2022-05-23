@@ -32,7 +32,7 @@ const DialogModal = ({
                         onChange={(e) => handleSetFieldValue('todoNote', e.target.value)}
                         value={formData.todoNote}
                         multiline 
-                        minRows={4}
+                        rows={4}
                     />
 
                     <DialogActions>
